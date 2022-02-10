@@ -18,11 +18,12 @@
                      display: inline-block;
                      font-size: 20px;
                  }
-                 div.content{
+                 .content{
                      background-color: white;
                      margin: 0px 10% 80px 10%;
                      padding: 30px;
                      font-size: 30px;
+                     text-align: center;
                      
                  }
                  div.discription{ 
@@ -66,7 +67,27 @@
                      
                      
                  }
+                 #table{
+                     margin-top: -75px;
+                     padding-top: 1px;
+                     text-align: center;
+                 }
                  
+                 .imgtab{
+
+                    position: relative; background-color: blue;   
+                 }
+                 .ul{
+                     margin: 0px;
+                     display: inline-block;
+                     
+                    
+                     
+                 }
+                 .ol{
+                    display:inline-block;
+                    
+                 }
 
 
 
@@ -78,10 +99,10 @@
         <div class="category">
              <p id="category">Recipe</p>
         </div>
-        <div class="content">   
+<div class="content">   
              <div class="h1">
              <h1 style="text-align:center;">Chocolate cake recipe</h1>
-         </div>
+             </div>
 
          <div class="sep"></div>
          
@@ -90,24 +111,20 @@
          </div>
          <br>
 
-       <div style="position: relative; background-color: blue;">  
+<div class="imgtab">  
          <!--img upload-->
-         <img class="center" style="display: block;" src="cake.jpg">
+         <img class="center" src="cake.jpg">
          
          
-         <br>
          
-         <div class="botom,information">
-         <p>Here Is More Information</p>
-         </div>
-         
-         <table border="1" style="position: absolute; bottom: 0px; width: 100%; color: white; 
-         background-color: #6c829dC0; height: 80px;">
+         <!--style="position: absolute; bottom: 0px; width: 100%; color: white;-->
+         <table id="table" border="1"; style="position: absolute; bottom: 0px; width: 100%; color: white;  background-color: #6c829dc0; height: 80px;">
             <tr>
                <th>Difficulty</th>
                <th>Preparation</th>
-               <th>Cooking</th>
+               <th>Cooking</th> 
                <th>Total Time</th>
+               
             </tr>
            
             <tr>
@@ -116,39 +133,41 @@
                 <td>25 min</td>
                 <td>35 min</td>
             </tr>
-           
-           </table>
-        </div>
+          </table>
+</div>   
+          
 
-
-         <div class"UL>
-             <ul>
-              <li>FBI</li>
-              <li>CIA</li>
-              <li>POLICE</li>
-              <li>NYPD</li>
-             </UL>
-         </div>
+                 <div class="botom,information">
+                    <p>Here Is More Information</p>
+                 </div>
          
-         <div class"ol >
-             <ol>
+             <ul class="ul">
+                 <li>FBI</li>
+                 <li>CIA</li>
+                 <li>POLICE</li>
+                 <li>NYPD</li>
+             </UL>
+         
+         
+         
+            <ol class="ol">
               <li>Monsey</li>
               <li>Monroe</li>
               <li>brooklyn</li>  
-              <li>LAKEWOOD</li>
-             </ol> 
-         </div>
+              <li>lakewood</li>
+            </ol> 
+        
          
          
          
-         <!-- table -->
+         <!-- table -->  
+        
          
          
+</div>     
          
          
-         
-         
-        </div>
+        
     </body>
 </html>
          
